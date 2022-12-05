@@ -13,7 +13,9 @@ import java.util.Map;
 @NoArgsConstructor
 public class AppRegistryService {
     private String orchestratorToken = "rK6ILPiurtfFV";
-    private String orchestratorUrl = "http://localhost:4000/orchestrator/biecointerface";
+//    private String orchestratorUrl = "http://localhost:4000/orchestrator/biecointerface";
+    private String orchestratorUrl = "http://bieco.holisun.com:4000/orchestrator/biecointerface";
+    private String securityScorerUrl = "http://localhost:8000/estimate_risk";
 
     private String token = "JAD7A6WAD454AS33AF4";
     private String state = BiecoToolStatuses.ONLINE;
